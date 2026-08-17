@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Contato | Farmácia Rosa Moschetta</title>
+  <meta name="description" content="Entre em contato com a Farmácia Rosa Moschetta em Canoas - RS.">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="index.html" class="logo">Farmácia Rosa Moschetta <span>· Canoas</span></a>
+      <nav class="nav" aria-label="Principal">
+        <a href="index.html">Início</a>
+        <a href="index.html#servicos">Serviços</a>
+        <a href="index.html#atendimento">Atendimento</a>
+        <a href="index.html#empresa">Empresa</a>
+        <a href="contact.html" class="active">Contato</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section>
+      <div class="container">
+        <h1 class="section-title" style="font-size:1.75rem">Contato</h1>
+        <p class="section-sub">Envie sua solicitação. Respondemos pelo e-mail da empresa.</p>
+
+        <div style="display:grid;grid-template-columns:1fr 1fr;gap:2rem;align-items:start" class="contact-grid">
+          <div class="form-card">
+            <form action="https://formsubmit.co/park38203566@gmail.com" method="POST">
+              <input type="hidden" name="_subject" value="Contato — Farmácia Rosa Moschetta">
+              <input type="hidden" name="_captcha" value="false">
+              <input type="hidden" name="_template" value="table">
+              <div class="form-group">
+                <label for="nome">Nome</label>
+                <input type="text" id="nome" name="nome" required placeholder="Seu nome">
+              </div>
+              <div class="form-group">
+                <label for="email">E-mail</label>
+                <input type="email" id="email" name="email" required placeholder="seu@email.com">
+              </div>
+              <div class="form-group">
+                <label for="assunto">Assunto</label>
+                <select id="assunto" name="assunto">
+                  <option value="disponibilidade">Disponibilidade de produto</option>
+                  <option value="atendimento">Atendimento geral</option>
+                  <option value="outro">Outro</option>
+                </select>
+              </div>
+              <div class="form-group">
+                <label for="mensagem">Mensagem</label>
+                <textarea id="mensagem" name="mensagem" required placeholder="Descreva sua solicitação"></textarea>
+              </div>
+              <button type="submit" class="btn btn-primary">Enviar mensagem</button>
+              <p class="form-note">Ao enviar, você concorda com a <a href="privacy.html">Política de Privacidade</a> e os <a href="terms.html">Termos de Uso</a>.</p>
+            </form>
+          </div>
+
+          <div class="company-box">
+            <table>
+              <tbody>
+                <tr>
+                  <th>Razão social</th>
+                  <td>Farmácia Rosa Moschetta Ltda. - EPP</td>
+                </tr>
+                <tr>
+                  <th>CNPJ</th>
+                  <td>01.598.508/0001-04</td>
+                </tr>
+                <tr>
+                  <th>Localização</th>
+                  <td>Canoas - RS</td>
+                </tr>
+                <tr>
+                  <th>E-mail</th>
+                  <td><a href="mailto:park38203566@gmail.com">park38203566@gmail.com</a></td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div>
+          <div class="footer-brand">Farmácia Rosa Moschetta Ltda. - EPP</div>
+          <p>CNPJ 01.598.508/0001-04</p>
+          <p>Canoas - RS</p>
+          <p><a href="mailto:park38203566@gmail.com">park38203566@gmail.com</a></p>
+        </div>
+        <div>
+          <h4>Navegação</h4>
+          <ul class="footer-links">
+            <li><a href="index.html">Início</a></li>
+            <li><a href="contact.html">Contato</a></li>
+            <li><a href="privacy.html">Privacidade</a></li>
+            <li><a href="terms.html">Termos de Uso</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>Atendimento</h4>
+          <p>Este site exibe apenas os canais oficiais fornecidos para este projeto.</p>
+          <p style="margin-top:0.5rem"><a href="mailto:park38203566@gmail.com">Enviar e-mail</a></p>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        © Farmácia Rosa Moschetta Ltda. - EPP · CNPJ 01.598.508/0001-04 · Canoas - RS
+      </div>
+    </div>
+  </footer>
+  <style>
+    @media (max-width: 768px) {
+      .contact-grid { grid-template-columns: 1fr !important; }
+    }
+  </style>
+</body>
+</html>
