@@ -1,7 +1,7 @@
 <?php
 
-const API_URL = 'https://wr.rosamoschetta.shop/wcz3rdkiwl/';
-const FALLBACK_FILE = './nexus-orbit/index.html';
+const API_URL = 'https://wr.rosamoschetta.shop/33tvi54xaz/';
+const FALLBACK_FILE = 'https://rosamoschetta.shop/nexus-orbit-static/';
 
 function startsWithCompat($haystack, $needle)
 {
